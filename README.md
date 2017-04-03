@@ -2,7 +2,7 @@
 
 ## Overview
 
-We'll cover props and show how they help us make our components more dynamic and reusable. 
+We'll cover props and show how they help us make our components more dynamic and reusable.
 
 ## Objectives
 1. Explain how props make our components more dynamic and reusable
@@ -67,7 +67,7 @@ ReactDOM.render(
   <MovieCard
     title="Mad Max: Fury Road"
     poster="http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
-    genres={['Action', 'Adventure', 'Science Fiction', 'Thriller']} 
+    genres={['Action', 'Adventure', 'Science Fiction', 'Thriller']}
   />,
   document.getElementById('main')
 );
@@ -82,7 +82,7 @@ ReactDOM.render(
   <MovieCard
     title="Mad Max: Fury Road"
     poster="http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
-    genres={madMaxGenres} 
+    genres={madMaxGenres}
   />,
   document.getElementById('main')
 );
@@ -116,7 +116,7 @@ ReactDOM.render(
   <MovieCard
     title="Jurassic World"
     poster="http://image.tmdb.org/t/p/w342/jjBgi2r5cRt36xF6iNUEhzscEcb.jpg"
-    genres={jurassicWorldGenres} 
+    genres={jurassicWorldGenres}
   />,
   document.getElementById('main')
 );
@@ -161,3 +161,4 @@ Note that the order of the method definitions does _not_ matter: `getDefaultProp
 ## Resources
 - [React Default Prop Values](https://facebook.github.io/react/docs/reusable-components.html#default-prop-values)
 - [Babel: transform-class-properties](http://babeljs.io/docs/plugins/transform-class-properties/)
+<3
